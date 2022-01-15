@@ -6,7 +6,7 @@ body{
     background-color: turquoise;
 }
 .header-container{
-    width: 410px;
+    width: 414px;
     background-color: aqua;
     display: flex;
     text-align: center;
@@ -14,7 +14,7 @@ body{
     align-items: center;
 }
 .header-parte1{
-    width: 420px;
+    width: 414px;
     background-color: rgb(255, 255, 255);
     display: flex;
     text-align: center;
