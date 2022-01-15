@@ -168,13 +168,17 @@ body{
 }
 .footer-conteudo{
     width: 100%;
-    background-color: rgb(219, 219, 219);
+    background-color: rgb(255, 255, 255);
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-bottom: 2px solid rgb(0, 0, 0);
+}
+.footer-conteudo p{
+    color: rgb(197, 197, 197);
+    padding: 20px;
 }
 .footer-conteudo img{
     width: 20%;
@@ -204,4 +208,16 @@ body{
 .footer-conteudo2 div h4:hover{
    color: black;
    border-bottom:  2px solid white;
+}
+.footer-conteudo3{
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-conteudo3 p{
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.678);
 }
