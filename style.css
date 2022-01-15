@@ -105,7 +105,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    background-color: rgb(255, 255, 255)8);
+    background-color: rgb(255, 255, 255);
 }
 .btn{
     width: 90%;
@@ -121,7 +121,7 @@ body{
     border: 2px solid transparent;
 } 
 .btn:hover{
-    border: 2px solid rgb(255, 255, 255);
+    border: 2px solid rgb(177, 177, 177);
     opacity: 50%;
     cursor: pointer;
 } 
@@ -135,6 +135,10 @@ body{
 }
 .conteudo-sapatos-title p{
     padding: 10px;
+}
+.conteudo-sapatos-title a:hover{
+    color: rgb(175, 175, 175);
+    cursor: pointer;
 }
 .conteudo-sapatos{
     width: 90%;
@@ -150,6 +154,7 @@ body{
 } 
 .conteudo-sapatos img:hover{
     border: 2px solid black;
+    cursor: pointer;
 }
 .footer-container{
     width: 414px;
