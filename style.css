@@ -7,7 +7,7 @@ body{
 }
 .header-container{
     width: 414px;
-    background-color: aqua;
+    background-color: rgb(165, 4, 4);
     display: flex;
     text-align: center;
     justify-content: center;
