@@ -3,15 +3,16 @@
     padding: 0;
 }
 body{
-    background-color: turquoise;
+    background-color: rgb(255, 255, 255);
 }
 .header-container{
     width: 414px;
-    background-color: rgb(165, 4, 4);
+    background-color: rgb(255, 255, 255);
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .header-parte1{
     width: 414px;
@@ -31,4 +32,18 @@ body{
     justify-content: space-between;
     background-color: transparent;
     border: none;
+}
+.header-parte2{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-pesquisa{
+    width: 90%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    padding: 7px;
 }
