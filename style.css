@@ -132,7 +132,7 @@ body{
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    background-color: rgb(170, 107, 107);
+    background-color: rgb(255, 255, 255);
 }
 .conteudo-sapatos-title p{
     padding: 10px;
@@ -148,7 +148,7 @@ body{
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    background-color: rgb(112, 108, 108);
+    background-color: rgb(255, 255, 255);
 }
 .conteudo-sapatos img{
     width: 30%;
