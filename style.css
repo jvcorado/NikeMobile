@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background-color: rgb(255, 0, 0);
@@ -118,4 +119,67 @@ body{
     color: white;
     background-color: black;
     border: none;
-}   
+}  
+.conteudo-sapatos-title{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(255, 251, 0);
+}
+.conteudo-sapatos-title p{
+    padding: 10px;
+}
+.conteudo-sapatos{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: blue;
+}
+.conteudo-sapatos img{
+    width: 30%;
+    border: 2px solid transparent;
+} 
+.conteudo-sapatos img:hover{
+    border: 2px solid black;
+}
+.footer-container{
+    width: 414px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(130, 238, 130);
+}
+.footer-conteudo{
+    width: 90%;
+    background-color: rgb(0, 183, 255);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-conteudo img{
+    width: 20%;
+}
+.footer-conteudo .btn{
+    width: 50%;
+}
+.footer-conteudo2{
+    background-color: rgb(0, 0, 0);
+    width: 90%;
+    display: flex;
+    text-align: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+.footer-conteudo2 h4{
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid rgb(214, 214, 214);
+}
